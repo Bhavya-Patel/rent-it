@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login-Page</title>
+</head>
+<body>
+    <div id="mydiv">
+        <h2 id="heading">Add-Item</h2>
+        <form id="myform" method="POST" action="upload.php" autocomplete="off" enctype="multipart/form-data">
+            
+            <label>Product Name</label> <br>
+            <input type="text" name="pname" id="pname" placeholder="Product Name" required><br>
+
+            <label>Rent Per Month</label><br>
+            <input type="number" min="1" name="rent" id="rent" placeholder="Rent / Month" required><br>
+            
+            <label>Category Of Your Product</label><br><br>
+            <select name = "category" id="Category">
+                <option value = "Home_Furniture" selected>Home & Furniture</option>
+                <option value = "Sports" >Sports</option>
+                <option value = "Electronics" >Electronics</option>
+                <option value = "Books" >Books</option>
+                <option value = "Vehicles" >Vehicles</option>
+                <option value = "Men_Women" >Men & Women</option>
+                <option value = "Kids_Toys" >Kids & Toys</option>
+                <option value = "More" >More</option>
+                
+             </select><br><br>
+
+            <label>Product Description</label><br>
+            <textarea placeholder="Product_description" name="product_desc" id="Product_description"  required cols="49" rows="3"></textarea><br>
+
+            <label>Upload Photos</label> &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="file" name="files[]" id="image_file" multiple >   
+            
+            <br>
+            
+            <input type="submit" id="Addit" name="AddIt" value="Add-It">
+
+
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- A modern take on our Enamel Mug. Inspired by the mugs of World War 2, with modern conveniences. It's the perfect companion to your coffee. -->

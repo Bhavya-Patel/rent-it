@@ -1,0 +1,422 @@
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="dropdown.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://toert.github.io/Isolated-Bootstrap/versions/4.0.0-beta/iso_bootstrap4.0.0min.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+  
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+
+  <!-- navbar start -->
+  <nav>
+    <div class="menu-icon" id="menuicon"><span class="fas fa-bars"></span></div>
+    <div class="logo"><a class="nav" href="">Rent It</a></div>
+    <div class="nav-items">
+      <li><a href="#"> <i class="fa fa-plus-circle"></i> Add Items</a></li>
+      <li><a href="#"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+      <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
+      <li><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> Profile</a></li>
+    </div>
+    <div class="search-icon"><span class="fas fa-search"></span></div>
+    <div class="cancel-icon"><span class="fas fa-times"></span></div>
+    <form action="#">
+
+      <input type="search" class="search-data" placeholder="Search" required>
+      <button type="submit" class="fas fa-search"></button>
+    </form>
+  </nav>
+  <!-- navbar End -->
+
+
+  <!-- Category-list Start -->
+  <div class="dropdown">
+    <ul>
+
+      <li><a href="" class="stylea">Home&Furniture</a></li>
+      <li><a href="" class="stylea">Sports</a></li>
+      <li><a href="" class="stylea">Electronics</a></li>
+      <li><a href="" class="stylea">Books</a></li>
+      <li><a href="" class="stylea">Vehicles</a></li>
+      <li><a href="" class="stylea">Men & Women</a></li>
+      <li><a href="" class="stylea">Kids & Toys</a></li>
+      <li><a href="" class="stylea">More</a></li>
+
+    </ul>
+  </div>
+  <!-- Category-list End -->
+
+  <!-- ImageSlider Start -->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="img/s1.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="img/s2.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="img/s3.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="img/s4.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="img/s5.jpeg" style="width:100%">
+    </div>
+
+    <div class="leftarr-icon"><span class="fas fa-arrow-left"></span></div>
+    <div class="rightarr-icon"><span class="fas fa-arrow-right"></span></div>
+    <!-- <button  id="pre-btn" onclick="plusSlides(-1)">&#10094;</button>
+  <button  id="nxt-btn" onclick="plusSlides(+1)">&#10095;</button> -->
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick='currentSlide(1)'></span>
+    <span class="dot" onclick='currentSlide(2)'></span>
+    <span class="dot" onclick='currentSlide(3)'></span>
+    <span class="dot" onclick='currentSlide(4)'></span>
+    <span class="dot" onclick='currentSlide(5)'></span>
+  </div>
+  <!-- ImageSlider Ends -->
+
+  
+  <!-- Top Product Section Start -->
+    <div class="bootstrap">
+
+      <section class="section-bg">
+        <div class="container">
+           
+           <div class="row">
+               <div class="col-xl-12">
+                   <div class="top-product-section-title">
+                       <h2>Top Rental Products of The Week. What’s yours?</h2>
+                   </div>
+               </div>
+           </div>
+   
+           <div class="row">
+   
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                   <div class="top-product">
+                       <div class="top-product-thumb">
+                           <img class="top-product-imgs" src="img/1.png" alt="">
+                       </div>
+                       <div class="top-product-btns">
+                        <button type="button" class="btn btn-outline-danger">Oneplus 8T 64GB</button>
+                       </div>
+                   </div>
+               </div>
+   
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                   <div class="top-product">
+                       <div class="top-product-thumb">
+                           <img class="top-product-imgs" src="img/washingM.jpg" alt="">
+                       </div>
+                       <div class="top-product-btns">
+                        <button type="button" class="btn btn-outline-danger">LG 7L Washing machine</button>
+                       </div>
+                   </div>
+               </div>
+   
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                   <div class="top-product">
+                       <div class="top-product-thumb">
+                           <img class="top-product-imgs" src="img/dtable.jpg" alt="">
+                       </div>
+                       <div class="top-product-btns">
+                        <button type="button" class="btn btn-outline-danger">Dining table 4P</button>
+                       </div>
+                   </div>
+               </div>
+   
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                   <div class="top-product">
+                       <div class="top-product-thumb">
+                           <img class="top-product-imgs" src="img/bed.jpg" alt="">
+                       </div>
+                       <div class="top-product-btns">
+                        <button type="button" class="btn btn-outline-danger">Double Bed (6.6x6)</button>
+                       </div>
+                   </div>
+               </div>
+   
+   
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                   <div class="top-product">
+                       <div class="top-product-thumb">
+                           <img class="top-product-imgs" src="img/bike.jpg" alt="">
+                       </div>
+                       <div class="top-product-btns">
+                        <button type="button" class="btn btn-outline-danger">Hero HF DELUXE BS6</button>
+                       </div>
+                   </div>
+               </div>
+   
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                   <div class="top-product">
+                       <div class="top-product-thumb">
+                           <img class="top-product-imgs" src="img/activa.jpg" alt="">
+                       </div>
+                       <div class="top-product-btns">
+                        <button type="button" class="btn btn-outline-danger">Honda activa</button>
+                       </div>
+                   </div>
+               </div>
+   
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                   <div class="top-product">
+                       <div class="top-product-thumb">
+                           <img class="top-product-imgs" src="img/11.png" alt="">
+                       </div>
+                       <div class="top-product-btns">
+                        <button type="button" class="btn btn-outline-danger">Samsung Smart Watch</button>
+                       </div>
+                   </div>
+               </div>
+   
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                   <div class="top-product">
+                       <div class="top-product-thumb">
+                           <img class="top-product-imgs" src="img/10.png" alt="">
+                       </div>
+                       <div class="top-product-btns">
+                        <button type="button" class="btn btn-outline-danger">Nokia-NK1 Core-i5 8GB</button>
+                       </div>
+                   </div>
+               </div>
+   
+           </div>
+   
+   
+        </div>
+    </section>
+
+</div>
+
+<!-- Top Product Section End -->
+
+
+<!-- top-categories start -->
+    <div class="bootstrap">
+
+      <section class="categories-bg">
+
+        <div class="row">
+          <div class="col-xl-12">
+              <div class="top-categories-section-title">
+                  <h2>Categories</h2>
+              </div>
+          </div>
+      </div>
+
+        <div class="row">
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="top-categories">
+                  <div class="categories-thumb">
+                      <img class="categories-imgs" src="img/laptop.png" alt="Category-icon">
+                  </div>
+                  <div class="categories-btns-section">
+                    <button type="button" class="btn btn-outline-primary categories-btns">Electronics</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="top-categories">
+                  <div class="categories-thumb">
+                      <img class="categories-imgs" src="img/car.png" alt="Category-icon">
+                  </div>
+                  <div class="categories-btns-section">
+                    <button type="button" class="btn btn-outline-primary categories-btns">Vehicles</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="top-categories">
+                  <div class="categories-thumb">
+                      <img class="categories-imgs" src="img/washing-machine.png" alt="Category-icon">
+                  </div>
+                  <div class="categories-btns-section">
+                    <button type="button" class="btn btn-outline-primary categories-btns">Home&Furniture</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="top-categories">
+                  <div class="categories-thumb">
+                      <img class="categories-imgs" src="img/treadmill.png" alt="Category-icon">
+                  </div>
+                  <div class="categories-btns-section">
+                    <button type="button" class="btn btn-outline-primary categories-btns">Sports</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="top-categories">
+                  <div class="categories-thumb">
+                      <img class="categories-imgs" src="img/wristwatch.png" alt="Category-icon">
+                  </div>
+                  <div class="categories-btns-section">
+                    <button type="button" class="btn btn-outline-primary categories-btns">Fashion</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="top-categories">
+                  <div class="categories-thumb">
+                      <img class="categories-imgs" src="img/toys.png" alt="Category-icon">
+                  </div>
+                  <div class="categories-btns-section">
+                    <button type="button" class="btn btn-outline-primary categories-btns">Kids&Toy</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="top-categories">
+                  <div class="categories-thumb">
+                      <img class="categories-imgs" src="img/books.png" alt="Category-icon">
+                  </div>
+                  <div class="categories-btns-section">
+                    <button type="button" class="btn btn-outline-primary categories-btns">Books</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="top-categories">
+                  <div class="categories-thumb">
+                      <img class="categories-imgs" src="img/more.png" alt="Category-icon">
+                  </div>
+                  <div class="categories-btns-section">
+                    <button type="button" class="btn btn-outline-primary categories-btns">More</button>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+
+     </section>
+  </div>
+
+
+  <!-- top-categories end -->
+
+
+   <!-- Deal of the day Section Starts -->
+    <div class="bootstrap">
+      <section class="section-bg">
+          <div class="container">
+             
+             <div class="row">
+                 <div class="col-xl-12">
+                     <div class="section-title">
+                         <h2>Deal Of Day</h2>
+                     </div>
+                 </div>
+             </div>
+
+                <div class="row">
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                            <div class="single-product">
+                                <div class="product-thumb">
+                                    <img class="deal-of-day-img" src="img/1.png" alt="">
+                                </div>
+                                <div class="product-title">
+                                    <h3><a href="#">Oneplus 6T pro (128 GB)</a></h3>
+                                </div>
+                                <div class="product-btns">
+                                    <label class="btn-small mr-2">₹970/m</label>
+                                    <button class="btn btn-outline-success">See More</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                          <div class="single-product">
+                              <div class="product-thumb">
+                                  <img class="deal-of-day-img" src="img/10.png" alt="">
+                              </div>
+                              <div class="product-title">
+                                  <h3><a href="#">Apple Macbook Air (128 GB)</a></h3>
+                              </div>
+                              <div class="product-btns">
+                                  <label class="btn-small mr-2">₹970/m</label>
+                                  <button class="btn btn-outline-success">See More</button>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                        <div class="single-product">
+                            <div class="product-thumb">
+                                <img class="deal-of-day-img" src="img/activa.jpg" alt="">
+                            </div>
+                            <div class="product-title">
+                                <h3><a href="#">Honda Activa (109.19 cc)</a></h3>
+                            </div>
+                            <div class="product-btns">
+                                <label class="btn-small mr-2">₹970/m</label>
+                                <button class="btn btn-outline-success">See More</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                      <div class="single-product">
+                          <div class="product-thumb">
+                              <img class="deal-of-day-img" src="img/bike.jpg" alt="">
+                          </div>
+                          <div class="product-title">
+                              <h3><a href="#">Hero HF DELUXE BS6</a></h3>
+                          </div>
+                          <div class="product-btns">
+                              <label class="btn-small mr-2">₹970/m</label>
+                              <button class="btn btn-outline-success">See More</button>
+                          </div>
+                      </div>
+                  </div>
+
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+            
+             <!-- Deal of the day Section End -->
+
+
+</body>
+
+<script src="dropdown.js" ></script>
+
+</html>
+
+
